@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dom Malatti</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+}
+
+.hero{
+padding:80px 20px;
+background:linear-gradient(red, black);
+text-align:center;
+}
+
+h1{
+font-size:60px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:red;
+color:white;
+text-decoration:none;
+border-radius:15px;
+margin-top:20px;
+}
+
+.card{
+background:#111;
+padding:20px;
+margin:20px;
+border-radius:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Dom Malatti</h1>
+
+<p>Pizzas e hambúrgueres premium</p>
+
+<a class="btn" href="https://wa.me/5591980764443">
+Pedir Agora
+</a>
+
+</section>
+
+<div class="card">
+<h2>Pizza Grande + Refri</h2>
+<p>R$ 48</p>
+</div>
+
+<div class="card">
+<h2>2 Pizzas Médias</h2>
+<p>R$ 70</p>
+</div>
+
+<div class="card">
+<h2>X-Tudão</h2>
+<p>R$ 22</p>
+</div>
+
+</body>
+</html>
